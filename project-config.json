@@ -1,0 +1,34 @@
+{
+  "projectName": "my-projectttt",
+  "themeId": "goai-navy",
+  "sidebar": {
+    "componentId": "sidebar-goai",
+    "props": {
+      "collapsible": true,
+      "showLogo": true,
+      "showVersion": true,
+      "brandName": "My App"
+    }
+  },
+  "chatbot": {
+    "componentId": "chatbot-haive",
+    "props": {
+      "showHeader": true,
+      "showAvatar": true,
+      "showInput": true,
+      "showTimestamps": true
+    }
+  },
+  "icons": {
+    "dashboard": true,
+    "users": true,
+    "settings": true,
+    "messages": true,
+    "analytics": false,
+    "billing": false,
+    "notifications": true,
+    "search": true
+  },
+  "createdAt": "2026-03-26T13:57:57.014Z",
+  "updatedAt": "2026-03-26T14:02:00.674Z"
+}

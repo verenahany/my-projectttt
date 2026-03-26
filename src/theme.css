@@ -1,0 +1,39 @@
+/* Theme: GoAI Navy */
+/* Source: GoAi-one/tailwind.config.ts */
+
+:root {
+  --composer-primary: #004080;
+  --composer-primary-hover: #003060;
+  --composer-primary-foreground: #ffffff;
+  --composer-secondary: #e2e8f0;
+  --composer-accent: #eef2ff;
+  --composer-background: #f8fafc;
+  --composer-foreground: #0f172a;
+  --composer-card: #ffffff;
+  --composer-card-foreground: #0f172a;
+  --composer-muted: #f8fafc;
+  --composer-muted-foreground: #475569;
+  --composer-border: #e2e8f0;
+  --composer-sidebar-bg: #f9fafb;
+  --composer-sidebar-fg: #1e293b;
+  --composer-sidebar-active: #004080;
+  --composer-sidebar-active-fg: #ffffff;
+  --composer-sidebar-hover: #e0e7ff;
+  --composer-sidebar-border: #e2e8f0;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--composer-foreground);
+  background: var(--composer-background);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
